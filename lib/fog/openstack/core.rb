@@ -232,6 +232,7 @@ module Fog
       end
 
       protected
+
       def management_url(token)
         if token.catalog
           token.catalog.get_endpoint_url(
